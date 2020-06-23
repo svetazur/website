@@ -1,37 +1,60 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/svetazur/website/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <title>Svetlana Keller</title>
+ <link rel="stylesheet" href="css/style.css">  
+</head>
+ <body>
+ <header>
+  <h1>Svetlana Keller</h1>
+   </header>
+       <nav class="navigation">
+     <ul>
+    <li><a href="one.html">One</a></li>
+    <li><a href="two.html">Two</a></li>
+    <li><a href="three.html">Three</a></li>
+    <li><a href="logout.html">Logout</a></li>
+  </ul>
+     </nav>
+      <section>
+     <h2>Favorite Foods</h2>
+     <ul>
+       <li>French Fries</li>
+       <li>Chocolate</li>
+       <li>Salad</li>
+       <li>Ice cream</li>
+     </ul>
+  </section> 
+   <section>
+     <h2>Achievements</h2>
+    <label for="file">Progress in this course (100%)</label>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<progress id="file" max="100" value="100">100% </progress><br>
+       <label for="progressbar">Progress in the Specialization capstone(20%)</label>
 
-### Markdown
+<progress id="progressbar" max="100" value="20"> 20% </progress><br>
+ <label for="progress">Progress in web development(67%)</label>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<progress id="progress" max="100" value="67">67% </progress>  
+       </section>
+ <section>
+   <h2>More about me</h2>
+   <details>
+    <summary>My Childhood</summary>
+    When I was quite a little girl I used to spend a lot of time taking care of my younger sister.
+</details>
+   </section>
+<footer>
+  <a href="http://www.intro-webdesign.com/images/newlogo.png">
+  <img src="http://www.intro-webdesign.com/images/newlogo.png" alt= "logo to intro to web design">
+  </a>
+  <small>This page was created by Svetlana Keller &  Colleen van Lent. To learn more about web design, visit <a href="http://www.intro-webdesign.com." target="_blank">Intro to Web Design</a>.</small>
+   </footer>
+  </body>
+   </html>
+       
+         
+     
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/svetazur/website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
